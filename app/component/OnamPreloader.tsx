@@ -428,7 +428,7 @@ const OnamPreloader: React.FC<OnamPreloaderProps> = ({
       />
 
       {/* ---------- Medallion: ആരവം / 11 ---------- */}
-      <div data-medallion className="relative aspect-square w-[min(54vw,230px)] sm:w-[min(34vw,260px)]">
+      {/* <div data-medallion className="relative aspect-square w-[min(54vw,230px)] sm:w-[min(34vw,260px)]">
         <Medallion />
         <div className="absolute inset-0 flex flex-col items-center justify-center">
           <p
@@ -454,7 +454,7 @@ const OnamPreloader: React.FC<OnamPreloaderProps> = ({
             {edition}
           </p>
         </div>
-      </div>
+      </div> */}
 
       {/* ---------- Pookalam ---------- */}
       <div className="relative mt-6 w-[min(52vw,240px)] sm:mt-8 sm:w-[min(34vw,280px)]">
