@@ -39,7 +39,7 @@ export default function Home() {
       {/* Song starts here, under the loader, and continues into the hero */}
       <OnamPreloader
         ready={ready}
-        minDuration={4600}
+        minDuration={2600}
         maxDuration={6000}
         bgMusic={BG_MUSIC}
         onDone={handleLoaderDone}
